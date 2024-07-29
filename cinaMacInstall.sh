@@ -15,7 +15,7 @@ git clone https://aur.archlinux.org/yay.git
 cd yay/
 makepkg -si
 cd 
-sudo pacman -S thunar alacritty fastfetch nvim ntfs-3g onlyoffice mousepad --noconfirm
+sudo pacman -S thunar alacritty fastfetch nvim ntfs-3g onlyoffice mousepad plank --noconfirm
 yay -S simple-scan-linuxmint warpinator-git xreader-git pix celluloid-linuxmint gnome-calculator-git mintstick-git visual-studio-code-bin brave-bin --noconfirm
 
 echo -e "              \e[32mIntalación lista\e[0m"
