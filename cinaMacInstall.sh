@@ -9,6 +9,7 @@ echo "                Script V.1 Beta"
 echo " vamos a intalar todos tus programas favoritos"
 
 cd
+mkdir backUP
 echo "              [yay] Install"
 git clone https://aur.archlinux.org/yay.git
 cd yay/
@@ -19,5 +20,5 @@ yay -S simple-scan-linuxmint warpinator-git xreader-git pix celluloid-linuxmint 
 
 echo -e "              \e[32mIntalación lista\e[0m"
 
-echo "agrega esto en /etc/fstab si tienes un backup: UUID=4A0ECF270ECF0B41 /home/edwin/backUP ntfs-3g defaults 0 0"
+echo -e " Agrega esto en /etc/fstab si tienes un backup: \e[UUID=4A0ECF270ECF0B41 /home/edwin/backUP ntfs-3g defaults 0 0\e[0m"
 echo -e "              \e[32mFinalizado\e[0m"
